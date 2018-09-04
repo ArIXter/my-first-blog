@@ -2,4 +2,14 @@ source myvenv/bin/activate (para activar el myvenv)
 python manage.py migrate ()
 python manage.py runserver (Para iniciar servidor)
 127.0.0.1:8000 (para entrar a la pagina)
-AriXter.pythonanywhere.com. (pagina web)
+
+$ git status
+[...]
+$ git add --all .
+$ git status
+[...]
+$ git commit -m "Modified templates to display posts from database."
+[...]
+$ git push
+
+/home/AriXter/.virtualenvs/myvirtualenv

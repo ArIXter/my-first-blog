@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<html>
+        <head>
+        	<meta charset="UTF-8">
+            <title>Datos curso 6°I</title>
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+            <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        </head>
+    <body bgcolor="grey">
+        <div class="form">
+            <form action="" method="POST">
+                <p>Nombre</p>
+                <label for="nombre">Su nombre</label>
+                <br>
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <p>Apodo</p>
+                <label for="apodo">Apodo/Id</label>
+                <br>
+                <input type="text" name="apodo" placeholder="Apodo" required>
+                <p>Descripcion</p>
+                <label for="desc">Su descripcion</label>
+                <br>
+                <textarea name="desc" placeholder="..." required></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </body>
+</html>
